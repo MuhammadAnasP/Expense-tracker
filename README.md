@@ -1,4 +1,4 @@
-# Laravel Vue Application
+# Expense tracker - Laravel Vue Application
 
 This is a Laravel and Vue.js application designed for tracking expenses and managing categories. This README provides instructions on how to set up and run the project locally.
 
@@ -23,7 +23,7 @@ Follow these steps to get your development environment set up:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/MuhammadAnasP/Expense-tracker.git
    cd your-repo-name
 2. **Install PHP dependencies**:
    ```bash
@@ -38,14 +38,12 @@ Follow these steps to get your development environment set up:
    Create a new database in your preferred database management system.
    Update your .env file with the appropriate database configuration (DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD).
 9. **Run migrations**:
-    ```bash
-   php artisan migrate
-11. **Compile the assets**:
-    ```bash
-   npm run dev
    ```bash
-   npm run build
-12. **Start the server**:
+   php artisan migrate
+10. **Compile the assets**:
     ```bash
-   php artisan serve
+    npm run dev
+11. **Start the server**:
+    ```bash
+    php artisan serve
 
