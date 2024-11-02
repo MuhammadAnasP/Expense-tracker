@@ -26,20 +26,26 @@ Follow these steps to get your development environment set up:
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
 2. **Install PHP dependencies**:
+   ```bash
    composer install
-3. **Install Node.js dependencies**:
+4. **Install Node.js dependencies**:
+   ```bash
    npm install
-4. **Generate an application key**:
+6. **Generate an application key**:
+   ```bash
    php artisan key:generate
-5. **Set up your database**:
+8. **Set up your database**:
    Create a new database in your preferred database management system.
    Update your .env file with the appropriate database configuration (DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD).
-6. **Run migrations**:
+9. **Run migrations**:
+    ```bash
    php artisan migrate
-7. **Compile the assets**:
+11. **Compile the assets**:
+    ```bash
    npm run dev
-   # or for production
+   ```bash
    npm run build
-8. **Start the server**:
+12. **Start the server**:
+    ```bash
    php artisan serve
 
