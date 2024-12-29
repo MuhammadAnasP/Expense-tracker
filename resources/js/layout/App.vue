@@ -27,7 +27,7 @@ const handleLoginSuccess = () => {
 </script>
 <template>
     <main>
-        <nav class="bg-black p-5 md:p-6">
+        <!-- <nav class="bg-black p-5 md:p-6">
             <div class="flex justify-between items-center gap-3">
                 <div class="text-white text-lg font-bold">
                     <router-link to="/dashboard">Expense tracker</router-link>
@@ -55,7 +55,7 @@ const handleLoginSuccess = () => {
         </nav>
         <div v-if="isAuthenticated && isAuthenticated" class="p-5 bg-gray-200">
             <h1 class="text-3xl">Welcome, {{ userName }}!</h1>
-        </div>
+        </div> -->
         <router-view @login-success="handleLoginSuccess"></router-view>
     </main>
 </template>

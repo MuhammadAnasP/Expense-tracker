@@ -16,6 +16,8 @@ import ManageCategory from './Components/ManageCategory.vue'
 
 import VueApexCharts from 'vue3-apexcharts'
 
+import Task from './Components/Task.vue'
+
 const routes = [
     {
         path: '/login',
@@ -64,6 +66,12 @@ const routes = [
         name: 'edit_category',
         component: ManageCategory,
         meta: { requiresAuth: true }
+    },
+    {
+        path: '/task',
+        name: 'task',
+        component: Task,
+        meta: { requiresAuth: false }
     },
     {
         path: '/:catchAll(.*)',
